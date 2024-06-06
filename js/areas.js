@@ -1,8 +1,8 @@
 // Sin usar DRY
-const areaRectangulo1 = 3 + 4;
-const areaRectangulo2 = 2 + 3;
-const areaRectangulo3 = 1 + 7;
-const areaRectangulo4 = 2 + 4;
+const areaRectangulo1 = 3 * 4;
+const areaRectangulo2 = 2 * 3;
+const areaRectangulo3 = 1 * 7;
+const areaRectangulo4 = 2 * 4;
 
 // Con DRY
 function calculaAreaRectangulo(ancho, alto) {
